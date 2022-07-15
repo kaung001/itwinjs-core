@@ -1,18 +1,6 @@
 # Change Log - @itwin/core-frontend
 
-This log was last generated on Tue, 09 Aug 2022 15:52:41 GMT and should not be manually modified.
-
-## 3.2.8
-Tue, 09 Aug 2022 15:52:41 GMT
-
-### Updates
-
-- Add IModelConnection.categories for querying category information. Add support for hiliting the intersection of a set of models and a set of subcategories.
-
-## 3.2.7
-Mon, 01 Aug 2022 13:36:56 GMT
-
-_Version update only_
+This log was last generated on Fri, 15 Jul 2022 19:04:43 GMT and should not be manually modified.
 
 ## 3.2.6
 Fri, 15 Jul 2022 19:04:43 GMT
