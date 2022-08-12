@@ -2,6 +2,18 @@
   "name": "@itwin/appui-react",
   "entries": [
     {
+      "version": "3.4.0",
+      "tag": "@itwin/appui-react_v3.4.0",
+      "date": "Fri, 12 Aug 2022 19:46:40 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Make sure FloatingViewportContent specifies controlId to FloatingViewport. Make sure FloatingViewportContent updates whenever the ViewState changes."
+          }
+        ]
+      }
+    },
+    {
       "version": "3.2.8",
       "tag": "@itwin/appui-react_v3.2.8",
       "date": "Tue, 09 Aug 2022 15:52:41 GMT",

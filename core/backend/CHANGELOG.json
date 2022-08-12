@@ -2,6 +2,27 @@
   "name": "@itwin/core-backend",
   "entries": [
     {
+      "version": "3.4.0",
+      "tag": "@itwin/core-backend_v3.4.0",
+      "date": "Fri, 12 Aug 2022 19:46:40 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "add querySubCategories function"
+          },
+          {
+            "comment": "delete definition models"
+          },
+          {
+            "comment": "IModelDb.Elements.queryParent"
+          },
+          {
+            "comment": " deleteElementTree and deleteElementSubTrees"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.2.8",
       "tag": "@itwin/core-backend_v3.2.8",
       "date": "Tue, 09 Aug 2022 15:52:41 GMT",

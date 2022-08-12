@@ -1,6 +1,13 @@
 # Change Log - @itwin/appui-react
 
-This log was last generated on Tue, 09 Aug 2022 15:52:41 GMT and should not be manually modified.
+This log was last generated on Fri, 12 Aug 2022 19:46:40 GMT and should not be manually modified.
+
+## 3.4.0
+Fri, 12 Aug 2022 19:46:40 GMT
+
+### Updates
+
+- Make sure FloatingViewportContent specifies controlId to FloatingViewport. Make sure FloatingViewportContent updates whenever the ViewState changes.
 
 ## 3.2.8
 Tue, 09 Aug 2022 15:52:41 GMT

@@ -1,6 +1,17 @@
 # Change Log - @itwin/core-common
 
-This log was last generated on Tue, 09 Aug 2022 15:52:41 GMT and should not be manually modified.
+This log was last generated on Fri, 12 Aug 2022 19:46:40 GMT and should not be manually modified.
+
+## 3.4.0
+Fri, 12 Aug 2022 19:46:40 GMT
+
+### Updates
+
+- Improve ambient occlusion effect by decreasing the size of shadows for more distant geometry, increasing the default maximum distance of the effect to 10,000 meters, and fading the effect as it approaches maximum distance.
+- Remove renderer-specific logic in Gradient.Symb.getImage
+- Ensure IPC messages are processed sequentially on the backend
+- lock down @types/semver to 7.3.10
+- deprecate categoryIds from the hydrateViewState request and response props
 
 ## 3.2.8
 Tue, 09 Aug 2022 15:52:41 GMT

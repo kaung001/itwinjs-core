@@ -1,6 +1,13 @@
 # Change Log - @itwin/editor-common
 
-This log was last generated on Tue, 09 Aug 2022 15:52:41 GMT and should not be manually modified.
+This log was last generated on Fri, 12 Aug 2022 19:46:40 GMT and should not be manually modified.
+
+## 3.4.0
+Fri, 12 Aug 2022 19:46:40 GMT
+
+### Updates
+
+- lock down @types/semver to 7.3.10
 
 ## 3.2.8
 Tue, 09 Aug 2022 15:52:41 GMT
