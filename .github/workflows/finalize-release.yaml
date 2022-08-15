@@ -26,7 +26,7 @@ jobs:
           git config --local user.name imodeljs-admin
       - name: Cherry-pick changelogs
         run: |
-          commitid="66cd9491887a0f233113c91a988f26b030996ca2"
+          commitid="0d97cee36d77d670ac86f3b26cbbce9a0b82eeb2"
           git cherry-pick $commitid
 
           # Clean up files that we don't want to cherry-pick changes back
