@@ -1,6 +1,23 @@
 # Change Log - @itwin/core-electron
 
-This log was last generated on Fri, 15 Jul 2022 19:04:43 GMT and should not be manually modified.
+This log was last generated on Thu, 18 Aug 2022 19:08:02 GMT and should not be manually modified.
+
+## 3.3.0
+Thu, 18 Aug 2022 19:08:02 GMT
+
+### Updates
+
+- White-list APIs from dialog module.
+
+## 3.2.8
+Tue, 09 Aug 2022 15:52:41 GMT
+
+_Version update only_
+
+## 3.2.7
+Mon, 01 Aug 2022 13:36:56 GMT
+
+_Version update only_
 
 ## 3.2.6
 Fri, 15 Jul 2022 19:04:43 GMT
