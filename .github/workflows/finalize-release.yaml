@@ -59,5 +59,7 @@ jobs:
           commitid: ${{ github.sha }}
         # turn off the default behavior to fail fast. The script has its own error handling
         shell: bash {0}
+      - name: Git diff
+        run: git diff
       - name: Push to master
         run: git push https://$(GITHUBTOKEN)@github.com/iTwin/itwinjs-core HEAD:master
