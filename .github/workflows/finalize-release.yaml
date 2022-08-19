@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --local user.email 38288322+imodeljs-admin@users.noreply.github.com
           git config --local user.name imodeljs-admin
-      - bash: echo "##vso[task.setvariable variable=headcommit;]$(git rev-parse HEAD)"
+      - run: echo "##vso[task.setvariable variable=headcommit;]$(git rev-parse HEAD)"
       - name: Cherry-pick changelogs
         run: |
           commitid="0c7ead166b1841e2f4defd4b01f904dbf6f379bd"
@@ -61,7 +61,7 @@ jobs:
         # turn off the default behavior to fail fast. The script has its own error handling
         shell: bash {0}
       - name: Git diff
-        bash: |
+        run: |
           newcommit=$(git rev-parse HEAD)
           echo "comparing $newcommit vs $(headcommit)"
           git diff $newcommit..$(headcommit)
