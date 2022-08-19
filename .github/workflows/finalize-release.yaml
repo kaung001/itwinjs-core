@@ -29,7 +29,7 @@ jobs:
           commitid="0c7ead166b1841e2f4defd4b01f904dbf6f379bd"
           git cherry-pick $commitid
           before=$(git rev-parse HEAD)
-          echo "##vso[task.setvariable variable=headcommit]$before"
+          echo "##vso[task.setvariable variable=headcommit;isOutput=true]$before"
 
           # Clean up files that we don't want to cherry-pick changes back
           for i in **/package.json; do git checkout --ours $i; done
