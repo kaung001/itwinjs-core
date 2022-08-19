@@ -60,6 +60,6 @@ jobs:
         # turn off the default behavior to fail fast. The script has its own error handling
         shell: bash {0}
       - name: Git diff
-        run: git diff origin
+        run: git diff HEAD...master
       - name: Push to master
         run: git push https://$(GITHUBTOKEN)@github.com/iTwin/itwinjs-core HEAD:master
