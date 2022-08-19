@@ -57,9 +57,6 @@ jobs:
           exit $?
         env:
           commitid: ${{ github.sha }}
-      - name: Git diff
-        run: |
-          git diff
         # turn off the default behavior to fail fast. The script has its own error handling
         shell: bash {0}
       - name: Push to master
