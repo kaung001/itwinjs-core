@@ -24,6 +24,9 @@ jobs:
         run: |
           git config --local user.email 38288322+imodeljs-admin@users.noreply.github.com
           git config --local user.name imodeljs-admin
+      - name: Git diff
+        run: |
+          git diff
       - name: Cherry-pick changelogs
         run: |
           commitid="0c7ead166b1841e2f4defd4b01f904dbf6f379bd"
