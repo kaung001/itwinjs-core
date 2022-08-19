@@ -28,6 +28,8 @@ jobs:
         run: |
           commitid="0c7ead166b1841e2f4defd4b01f904dbf6f379bd"
           git cherry-pick $commitid
+          before=$(git rev-parse HEAD)
+          echo "##vso[task.setvariable variable=headcommit]$before"
 
           # Clean up files that we don't want to cherry-pick changes back
           for i in **/package.json; do git checkout --ours $i; done
@@ -60,6 +62,9 @@ jobs:
         # turn off the default behavior to fail fast. The script has its own error handling
         shell: bash {0}
       - name: Git diff
-        run: git diff HEAD...master
+        run: |
+          newcommit=$(git rev-parse HEAD)
+          echo "comparing $newcommit vs $(headcommit)"
+          git diff $newcommit..$(headcommit)
       - name: Push to master
         run: git push https://$(GITHUBTOKEN)@github.com/iTwin/itwinjs-core HEAD:master
